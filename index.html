@@ -16,8 +16,29 @@
 <body>
   
   <div class="container text-center">
-    <h1 class="bg-light-py-4 text-info"><i class="fas fa-plug"></i></h1>
+    <h1 class="bg-light-py-4 text-info"><i class="fas fa-book-open"></i> Control de Expedientes</h1>
   </div>
+  <div class="d-flex justify-content-center">
+    <form class="w-50">
+      <input type="text" id="userid" class="form-control" placeholder="ID" autocomplete="off">
+      <input type="text" id="proname" class="form-control" placeholder="Número de Expediente" autocomplete="off">
+      <div class="row">
+        <div class="col">
+          <input type="text" id="seller" class="form-control" placeholder="Seller" autocomplete="off">
+        </div>
+        <div class="col">
+          <input type="text" id="price" class="form-control" placeholder="Price" autocomplete="off">
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Create,Update, Read and Delete Button -->
+  <div class="d-flex justify-content-center">
+    <div class="btn btn-success" id="btn-create">Create</div>
+  </div>
+
+
   <!-- Scripts de Javascript -->
   <script src="./js/jquery-3.6.0.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
